@@ -1,0 +1,13 @@
+{
+  "name": "leave-app-root",
+  "version": "1.0.0",
+  "description": "Root for Leave Management System",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd leave-app-ui && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd leave-app-ui && npm run dev",
+    "start:all": "echo \"Running both requires opening separate terminals or using a tool like 'concurrently'\""
+  }
+}
